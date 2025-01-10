@@ -21,8 +21,7 @@ This project demonstrates the use of the YOLOv11n (You Only Look Once) model for
 # Installation
 Install required dependencies
 1) Ensure you have Python 3.7+ installed. Install dependencies using pip:
-   
-pip install -r requirements.txt  
+   pip install -r requirements.txt  
 3) Download YOLO model weights
 
 Place your YOLO model weights (yolo11n.pt) in the project directory.

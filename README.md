@@ -10,9 +10,13 @@ This project demonstrates the use of the YOLOv11n (You Only Look Once) model for
 
 ## Features
 *) Detects objects in video frames using a YOLO model.
+
 *) Builds a hierarchical JSON structure representing parent-child relationships among detected objects.
+
 *) Saves cropped images of detected objects and sub-objects.
+
 *) Displays bounding boxes and object labels with confidence scores on video frames.
+
 *) Calculates and displays real-time FPS.
 # Installation
 Install required dependencies

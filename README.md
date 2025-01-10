@@ -33,32 +33,32 @@ yolo-object-detection-hierarchy/
 ├── yolo11n.pt              # YOLO model weights  
 └── README.md               # Documentation file  
 # Code Description
-Initialization:
+1) Initialization:
 Loads the YOLO model (yolo11n.pt).
 Initializes video capture (supports both video files and webcam).
 
-Object Detection:
+2) Object Detection:
 Detects objects in each frame.
 Filters objects based on a confidence threshold (default: 0.3).
 
-Hierarchical JSON:
+3) Hierarchical JSON:
 Builds a JSON structure representing the parent-child relationships of detected objects.
 
-Object Cropping:
+4) Object Cropping:
 Crops and saves images of both parent and sub-objects.
 
-Visualization:
+5) Visualization:
 Displays bounding boxes, labels, and confidence scores for each detected object.
 Shows real-time FPS on the video feed.
 
 # Output
-JSON Structure:
+*) JSON Structure:
 A JSON object representing detected objects and their hierarchical relationships is printed to the console.
 
-Cropped Images:
+*) Cropped Images:
 Saved in the sub_object_images directory with filenames indicating the object class and ID.
 
-Video Feed:
+*) Video Feed:
 Annotated video frames with bounding boxes, labels, and FPS are displayed in real time.
 
 

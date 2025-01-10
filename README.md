@@ -9,16 +9,16 @@ This project demonstrates the use of the YOLOv11n (You Only Look Once) model for
 6) Output
 
 ## Features
-Detects objects in video frames using a YOLO model.
-Builds a hierarchical JSON structure representing parent-child relationships among detected objects.
-Saves cropped images of detected objects and sub-objects.
-Displays bounding boxes and object labels with confidence scores on video frames.
-Calculates and displays real-time FPS.
+*) Detects objects in video frames using a YOLO model.
+*) Builds a hierarchical JSON structure representing parent-child relationships among detected objects.
+*) Saves cropped images of detected objects and sub-objects.
+*) Displays bounding boxes and object labels with confidence scores on video frames.
+*) Calculates and displays real-time FPS.
 # Installation
- Install required dependencies
-Ensure you have Python 3.7+ installed. Install dependencies using pip:
+Install required dependencies
+1) Ensure you have Python 3.7+ installed. Install dependencies using pip:
 pip install -r requirements.txt  
-Download YOLO model weights
+2) Download YOLO model weights
 Place your YOLO model weights (yolo11n.pt) in the project directory.
 # Directory Structure
 yolo-object-detection-hierarchy/

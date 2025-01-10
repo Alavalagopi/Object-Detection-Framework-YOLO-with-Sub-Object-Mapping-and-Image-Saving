@@ -1,12 +1,12 @@
 # YOLO-Based Object Detection with Hierarchical JSON Output and Sub-Object Image Saving
 This project demonstrates the use of the YOLOv11n (You Only Look Once) model for object detection in a video stream. The script captures frames from a video or webcam, detects objects, and organizes the detected objects into a hierarchical JSON structure. Additionally, it identifies parent-child relationships between objects, crops the detected objects, and saves them as images.
 # Table of Contents
-Features
-Installation
-Usage
-Directory Structure
-Code Description
-Output
+1) Features
+2) Installation
+3) Usage
+4) Directory Structure
+5) Code Description
+6) Output
 
 # Features
 Detects objects in video frames using a YOLO model.

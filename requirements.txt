@@ -1,0 +1,7 @@
+opencv-python==4.5.5.64
+cvzone==1.5.6
+torch==1.12.1
+torchvision==0.13.1
+numpy==1.21.6
+matplotlib==3.5.2
+ultralytics==8.0.20

@@ -1,4 +1,3 @@
-# YOLO-Based Object Detection with Hierarchical JSON Output and Sub-Object Image Saving
 This project demonstrates the use of the YOLOv11n (You Only Look Once) model for object detection in a video stream. The script captures frames from a video or webcam, detects objects, and organizes the detected objects into a hierarchical JSON structure. Additionally, it identifies parent-child relationships between objects, crops the detected objects, and saves them as images.
 ## Table of Contents
 1) Features
@@ -20,17 +19,16 @@ This project demonstrates the use of the YOLOv11n (You Only Look Once) model for
 *) Calculates and displays real-time FPS.
 # Installation
 Install required dependencies
-1) Ensure you have Python 3.7+ installed. Install dependencies using pip:
-   pip install -r requirements.txt  
+1) Ensure you have Python 3.7+ installed. Install dependencies using pip or conda:
+2)  pip install -r requirements.txt  
 3) Download YOLO model weights
 
 Place your YOLO model weights (yolo11n.pt) in the project directory.
 # Directory Structure
 yolo-object-detection-hierarchy/
 ├── sub_object_images/      # Directory for cropped object images of the output
-├── assessment.py                 # The main Python script  
+├── assessment.py           # The main Python script  
 ├── requirements.txt        # Required Python libraries  
-├── yolo11n.pt              # YOLO model weights  
 └── README.md               # Documentation file  
 # Code Description
 1) Initialization:

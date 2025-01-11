@@ -27,8 +27,8 @@ Install required dependencies
 Place your YOLO model weights (yolo11n.pt) in the project directory.
 # Directory Structure
 yolo-object-detection-hierarchy/
-├── sub_object_images/      # Directory for cropped object images  
-├── main.py                 # The main Python script  
+├── sub_object_images/      # Directory for cropped object images of the output
+├── assessment.py                 # The main Python script  
 ├── requirements.txt        # Required Python libraries  
 ├── yolo11n.pt              # YOLO model weights  
 └── README.md               # Documentation file  
